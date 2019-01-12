@@ -1,0 +1,47 @@
+body{
+    background-image: url("../images/morocco-blue.png");
+    font-family: Georgia, serif !important;
+}
+
+.game-title{
+    color: white;
+    background-color: brown;
+    font-size: 24px;
+}
+
+.instructions{
+    color: green;
+    background-color: beige;
+    font-size: auto;
+    font-weight: bold;
+}
+
+.random-number{
+    color: purple;
+    background-color: green;
+    font-size: 48px;
+}
+
+.wins-losses{
+    background-color: turquoise;
+}
+
+.score{
+    color: white;
+    background-color: darkgreen;
+}
+
+#num{
+    font-size: 48px;
+}
+
+img{
+    max-width: 100%;
+    min-height: 100%;
+}
+
+img:hover{
+    border: green;
+    border-width: 5px;
+    border-style: solid;
+}
