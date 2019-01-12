@@ -22,9 +22,6 @@ $(document).ready(function() {
 
         //game is either won or lost
         if (score >= rand){
-            rand = Math.floor(Math.random()*100)+19;
-            $(".random-number").text(rand);
-
             //reset crystal values
             crystals.crystal1 = Math.floor(Math.random()*12)+1;
             crystals.crystal2 = Math.floor(Math.random()*12)+1;
@@ -47,6 +44,8 @@ $(document).ready(function() {
             //reset game
             score = 0;
             $("#num").text(score);
+            rand = Math.floor(Math.random()*100)+19;
+            $(".random-number").text(rand);
 
         }
     })
